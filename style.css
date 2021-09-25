@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wapper{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.btn-sum{
+display: flex;
+justify-content: center;
+position: relative;
+transform: translate(0px, 228px);
+
+}
+    
+.btn {
+    border: none;
+    outline: none;
+    width: 158px;
+    height: 58px;
+    border-radius: 28px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Birthstone', cursive;
+    cursor: pointer;
+    transition: linear .3s;
+    border: 1px solid #0000003d;
+}
+.happy{
+    width: 850px;
+    height: 500px;
+    background: #fff;
+    background-image: url(/Happy-Birthday-Poster-Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    margin: 0 auto;
+    z-index: 999;
+}
+.happys{
+    padding-top: 100px;
+    color: #fff;
+    font-size: 45px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Caramel', cursive;
+    
+}
+.text {
+    font-family: 'Birthstone', cursive;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    font-size: 26px;
+    width: 417px;
+    display: block;
+    margin: 0 auto;
+
+}
+.happyphoto {
+    width: 157px;
+    padding-left: 10px;
+}
+.happyphotos {
+    width: 317px;
+    margin-left: 124px;
+}
+.photofb {
+    width: 10%;
+    position: absolute;
+    left: 50%;
+    height: 93px;
+}
+
+.overlow{
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+}
