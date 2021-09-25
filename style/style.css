@@ -33,7 +33,7 @@ transform: translate(0px, 228px);
     width: 850px;
     height: 500px;
     background: #fff;
-    background-image: url(/Happy-Birthday-Poster-Background.jpg);
+    background-image: url(../img/Happy-Birthday-Poster-Background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
